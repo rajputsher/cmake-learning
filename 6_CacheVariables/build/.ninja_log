@@ -1,0 +1,8 @@
+# ninja log v5
+0	49	1607458702	my_math/CMakeFiles/my_math.dir/src/addition.cpp.o	8c9eba76f184aa8c
+1	205	1607458702	my_math/CMakeFiles/my_math.dir/src/division.cpp.o	777efc9d51ed3dbe
+205	223	1607458702	my_math/libmy_math.a	f099d3782a86b405
+1	480	1607458702	my_print/CMakeFiles/my_print.dir/src/print_result.cpp.o	d5b7701312388419
+481	492	1607458702	my_print/libmy_print.a	be32ede3d293aff7
+1	500	1607458702	CMakeFiles/calculator.dir/main.cpp.o	ca8a666369e97e6d
+500	591	1607458703	calculator	f0ef3311c27c1bb9

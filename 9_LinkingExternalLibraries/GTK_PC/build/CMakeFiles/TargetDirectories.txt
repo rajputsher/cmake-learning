@@ -1,0 +1,3 @@
+/home/user/Desktop/cmake_tutorials/module9/GTK_PC/build/CMakeFiles/rebuild_cache.dir
+/home/user/Desktop/cmake_tutorials/module9/GTK_PC/build/CMakeFiles/GTK_PC_app.dir
+/home/user/Desktop/cmake_tutorials/module9/GTK_PC/build/CMakeFiles/edit_cache.dir

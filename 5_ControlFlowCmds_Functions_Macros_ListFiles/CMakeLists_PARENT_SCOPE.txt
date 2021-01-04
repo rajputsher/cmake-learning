@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 3.0.0)
+
+
+#function(print_detail)
+#	message("My name is Bob")
+#endfunction()
+
+set(Name Charlie)
+
+function(print_detail)
+	message("Inside function: Before modification: ${Name}")
+	set(Name Bob PARENT_SCOPE)
+	message("Inside function: After modification: ${Name}")
+endfunction()
+
+message("Outside Function: before function call: ${Name}")
+print_detail()
+message("Outside Function: after function call: ${Name}")
+
+

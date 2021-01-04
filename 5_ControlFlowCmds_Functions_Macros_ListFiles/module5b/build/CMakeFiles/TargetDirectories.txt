@@ -1,0 +1,2 @@
+/home/user/Desktop/cmake_tutorials/module7/build/CMakeFiles/rebuild_cache.dir
+/home/user/Desktop/cmake_tutorials/module7/build/CMakeFiles/edit_cache.dir

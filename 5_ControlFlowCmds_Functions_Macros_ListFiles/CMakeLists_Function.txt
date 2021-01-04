@@ -1,0 +1,21 @@
+cmake_minimum_required(VERSION 3.0.0)
+
+
+#function(print_detail)
+#	message("My name is Bob")
+#endfunction()
+
+set(Name Charlie)
+set(Age 45)
+
+function(print_detail var)
+	message("1.My ${var} is ${${var}}")
+endfunction()
+
+function(print_detail var)
+	message("2.My ${var} is ${${var}}")
+endfunction()
+
+_print_detail(Name)
+print_detail(Age)
+

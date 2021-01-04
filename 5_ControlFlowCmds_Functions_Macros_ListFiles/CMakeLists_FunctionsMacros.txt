@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.0.0)
+
+
+macro(print_detail var) 	#function(print_detail var)
+	message("My name is ${var}")
+	
+	if(DEFINED name_var)
+		message("If block executed")
+	endif()	
+	#set(var abc)
+	#message("My name is ${var}")
+endmacro()			#endfunction()
+
+
+print_detail(Charlie)
+
